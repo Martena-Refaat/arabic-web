@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
+
+
+
+
+
+body{
+    direction: rtl;
+    font-family: "Tajawal", "sans-serif";
+    text-align: center;
+    overflow-x: hidden;
+
+}
+
+
+
+:root{
+    --mainColor:#ffc527;
+}
+.header{
+    position: fixed;/*fixed make block is inline block*/
+    width: 100%;/*the solution*/
+    z-index: 10;/*the solution*/
+
+}
+
+
+section{
+    padding: 80px 0;
+}
+.section__title{
+    position: relative;
+display: inline-block;
+left: 120px;
+
+}
+.section__title:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--mainColor);
+}
+.par{
+    margin-top: 30px;
+}
+.navbar{
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+.home{
+    height: 600px;
+    background-size: cover;
+    padding: -1px;
+}
+.home-item{
+    width: 50%;
+    margin-right: auto;
+    margin-top: 15%;
+}
+.home-item h2{
+    color: #fff;
+    font-size: 45px;
+}
+.home-item p{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.list-unstyled .section__title{
+    margin-bottom: 30px;
+left: 160px;
+}
+
+.section-projects{
+    background: #eeeeee;
+
+}
+.choosen .section__title{
+    margin-bottom: 40px;
+    left: 480px;
+}
+
+.choosen .lines .details{
+    margin-right: 100px;
+}
+.choosen .part-one{
+    margin-left: 150px;
+}
+.choosen .pic{
+    margin-left: 50px;
+}
+.row{
+    margin-right: -231px;
+    margin-left: 35px;
+}
+.choosen {
+    margin-top: 19px;
+    margin-left: -527px;
+}
+.choosen-title{
+    position: relative;
+    display: inline-block;
+    left: 432px;
+    top: 50px;
+}
+.points{
+    margin-top: -100px;
+}
+ .profile-photo{
+    width: 100px;
+    margin-left: -279px;
+}
+
+.card-body {
+    margin-left: 48px;
+    margin-right: 93px;
+    padding: 0;
+}
+.section-email .par-info{
+    margin-bottom: 94px;
+}
+.section-email .subscribe{
+    margin-right: 248px;
+    margin-left: 143px;
+}
+.section-email .input-text{
+    margin-left: 71px;
+    position: relative;
+    left: 130px;
+
+}
+
+
+
+.news-title{
+    margin-top: 464px;
+}
+.btn-read{
+    border: none;
+    background-color: #f2f2f2;
+}
+.btn-read:hover{
+    background-color: white;
+    color: var(--mainColor);
+}
+.news{
+    border: none;
+    background-color:#f2f2f2 ;
+    margin-right: 20px;
+}
+
+.foter-box  {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #071c33;
+    color: white;
+}
+
+.footer{
+  background-color: #071c33;  
+}
+.foter-box h5{
+    font-size: 15px;
+    color: var(--mainColor);
+}
+.pages{
+    list-style:square;
+    margin-top: 20px;
+}
+.pages  li a{
+    color: var(--mainColor);
+}
+.new-post{
+padding: 10px;}
+.footer-link li a{
+    color: white;
+}
+.footer-link li{
+    display: inline-block;
+    list-style: none;
+}
+.footer-link{
+    padding-left: 9px;
+    padding-top: 20px;
+
+}
+.copyright{
+    background-color: #04101e;
+    color: #d5dae1;
+padding: 40px;
+}
+
+hr{
+    border:  0.1px solid #d5dae1;
+}
+
+
+.user_info{
+    display: none;
+}
+ul li{
+    list-style: none;
+}
+#logout{
+    display: none;
+    margin-right: 57px;
+
+
+}
+#links li{
+    display: inline-block;
+    margin-right: 57px;
+
+}
+#links li a{
+    color:#ffc527;
+    
+}
+#user_info li a{
+    color:#ffc527;
+
+}
